@@ -9,7 +9,8 @@ function destructivelyAddElementToBeginningOfArray(arrayz,element_to_add){
   return arrayz
 }
 
-function addElementToEndOfArray(array_to,element_to_add){
+function addElementToEndOfArray(arrayz,element_to_add){
+  arrayz.shift()
   return array_to.shift(element_to_add)
 }
 
