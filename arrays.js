@@ -15,7 +15,7 @@ function addElementToEndOfArray(arrayz,element_to_add){
 }
 
 function destructivelyAddElementToEndOfArray(array_to, element_to_add){
-  array_to = array_to + element_to_add
+  array_to.push(element_to_add)
   return array_to
 }
 
